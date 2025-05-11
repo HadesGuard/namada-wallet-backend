@@ -124,6 +124,13 @@ export class PriceService {
   }
 
   async onModuleInit() {
+    if (this.configService.get('app.env') == 'local') {
+      this.logger.log(
+        'Price service initialized on local environment, skipping initial price update',
+      );
+      return;
+    }
+
     this.logger.log(
       'Price service initialized, starting initial price update...',
     );

@@ -1,4 +1,8 @@
 export default () => ({
+  app: {
+    port: parseInt(process.env.APP_PORT, 10) || 3000,
+    env: process.env.APP_ENV || 'local',
+  },
   redis: {
     host: process.env.REDIS_HOST || 'localhost',
     port: parseInt(process.env.REDIS_PORT, 10) || 6379,
