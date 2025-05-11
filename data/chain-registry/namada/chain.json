@@ -1,0 +1,66 @@
+{
+  "chain_name": "namada",
+  "twitter": "https://x.com/namada",
+  "discord": "https://discord.gg/namada",
+  "website": "https://namada.net/",
+  "telegram": "https://t.me/namadaprotocol",
+  "github": "https://github.com/anoma/namada",
+  "pretty_name": "Namada",
+  "chain_type": "namada",
+  "chain_id": "namada.5f5de2dd1b88cba30586420",
+  "description": "Namada is the shielded asset hub rewarding you to protect the multichain. A New Era of Shielded Multichain Interactions",
+  "slip44": 877,
+  "bech32_prefix": "tnam",
+  "daemon_name": "unam",
+  "key_algos": [
+    "ed25519"
+  ],
+  "denom_units": [
+    {
+      "denom": "unam",
+      "exponent": 0
+    },
+    {
+      "denom": "nam",
+      "exponent": 6
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "unam",
+        "fixed_min_gas_price": 0.0025,
+        "low_gas_price": 0.0025,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "unam"
+      }
+    ],
+    "lock_duration": {
+      "time": "1209600s"
+    }
+  },
+  "explorers": {
+    "mainnet": {
+      "kind": "Cerberus Explorer",
+      "url": "https://namada-explorer.cerberusnode.com",
+      "tx_page": "https://namada-explorer.cerberusnode.com/txs/${txHash}",
+      "account_page": "https://namada-explorer.cerberusnode.com/account/${accountAddress}"
+    },
+    "testnet": {
+      "kind": "Cerberus Explorer",
+      "url": "https://namada-explorer.testnet.cerberusnode.com",
+      "tx_page": "https://namada-explorer.testnet.cerberusnode.com/txs/${txHash}",
+      "account_page": "https://namada-explorer.testnet.cerberusnode.com/account/${accountAddress}"
+    }
+  },
+  "logo_URIs": {
+    "svg": "https://raw.githubusercontent.com/anoma/namada-chain-registry/main/namada/images/namada.svg"
+  }
+}

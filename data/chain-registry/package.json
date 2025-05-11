@@ -1,0 +1,6 @@
+{
+  "name": "mock-chain-registry",
+  "version": "0.0.1",
+  "description": "Mock copy of the Namada Chain Registry",
+  "license": "GPL-3.0"
+}

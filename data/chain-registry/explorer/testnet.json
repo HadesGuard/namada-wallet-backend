@@ -1,0 +1,18 @@
+[
+    {
+        "chain_id": "housefire-alpaca.cc0d3e0c033be",
+        "description": "The native token of Namada.",
+        "twitter": "https://x.com/namada",
+        "discord": "https://discord.gg/namada",
+        "website": "https://namada.net/",
+        "telegram": "https://t.me/namadaprotocol",
+        "base": "unam",
+        "name": "Namada Housefire",
+        "display": "nam",
+        "symbol": "NAM",
+        "address": "tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7",
+        "logo": {
+            "svg": "https://raw.githubusercontent.com/anoma/namada-chain-registry/main/namada/images/namada.svg"
+        }
+    }
+]
